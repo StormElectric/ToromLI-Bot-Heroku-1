@@ -1,5 +1,4 @@
-token: "lip_MBHBy3EXqxvezOOFoPrm"         # Lichess OAuth2 Token.
-
+token: "lip_LRD9F4Ap4Rq9IunBy3PU"        # Lichess OAuth2 Token.
 engine:                                   # Engine settings.
   dir: "./engines"               # Directory containing the engine.
   name: "stockfish"        # Binary name of the engine to use.
@@ -46,7 +45,7 @@ engine:                                   # Engine settings.
     Skill Level: 20
     UCI_Elo : 2850
     MultiPV: 17
-    Slow Mover: 40
+    Slow Mover: 10
 
 move_overhead_multiplier: 3.0              # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
 
