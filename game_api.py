@@ -22,11 +22,11 @@ class Game_api:
         game_queue_thread.start()
         
         
-        self.api.send_chat_message(self.game_id, "player", "Hello! Try !cmd for command")
+        self.api.send_chat_message(self.game_id, "player", "Hello, Welcome to the game! Type !help for commands I can respond to.")
         self.api.send_chat_message(self.game_id, "player", "I wish you good luck!")
 
-        self.api.send_chat_message(self.game_id, "spectator", "Welcome friends to the games!")
-        self.api.send_chat_message(self.game_id, "spectator", "Thanks for watching my games!")
+        self.api.send_chat_message(self.game_id, "spectator", "Welcome  to the game spectators!")
+        self.api.send_chat_message(self.game_id, "spectator", "Thanks for watching my game!")
 
 
         while True:
