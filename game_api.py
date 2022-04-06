@@ -79,6 +79,13 @@ class Game_api:
                     self.api.abort_game(self.game_id)
             else:
                 print(event)
+                
+        self.api.send_chat_message(self.game_id, "player", "Great")
+        self.api.send_chat_message(self.game_id, "player", "I wish you good luck!")
+
+        self.api.send_chat_message(self.game_id, "spectator", "Welcome  to  game spectators!")
+        self.api.send_chat_message(self.game_id, "spectator", "Thanks for tching my game!")
+
 
         print('Game over')
 
