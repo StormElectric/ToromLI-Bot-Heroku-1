@@ -24,11 +24,9 @@ class Game_api:
         
         self.api.send_chat_message(self.game_id, "player", "Hello, Welcome to the game! Type !help for commands I can respond to.")
         self.api.send_chat_message(self.game_id, "player", "I wish you good luck!")
-        self.api.send_chat_message(self.game_id, "player", "Bye!")
 
         self.api.send_chat_message(self.game_id, "spectator", "Welcome  to the game spectators!")
         self.api.send_chat_message(self.game_id, "spectator", "Thanks for watching my game!")
-        self.api.send_chat_message(self.game_id, "player", "Bye"!)
 
 
 
